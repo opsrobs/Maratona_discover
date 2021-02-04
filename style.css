@@ -145,7 +145,7 @@ header{
 }
 
 .card.total{
-    background: var (var(--green));
+    background: var(--light-green);
     color: white;
 
 }
@@ -156,7 +156,7 @@ header{
     overflow-x: auto;
 }
 
-#Data-table{
+#data-table{
     width: 100%;
     border-spacing: 0 0.5;
     color: #969cb3;
@@ -218,7 +218,7 @@ td.expense{
     position: fixed;
     top: 0;
     display: flex;
-    align-items: center;
+    align-items: center;    
     justify-content: center;
 
     opacity: 0;
